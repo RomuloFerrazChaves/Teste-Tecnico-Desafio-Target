@@ -4,6 +4,9 @@ Link para o projeto:
 
 https://teste-tecnico-desafio-target.vercel.app/
 
+![Imagem de Exemplo](Teste%20Tecnico%20-%20Target/assets/teste-screenshot.png)
+
+
 ## Questões
 
 ### Questão 1: Sequência de Fibonacci
