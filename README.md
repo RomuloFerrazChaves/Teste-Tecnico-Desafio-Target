@@ -1,6 +1,6 @@
 # Teste-Tecnico-Desafio-Target
 
-Link para o projeto:
+Link para o teste:
 
 https://teste-tecnico-desafio-target.vercel.app/
 
