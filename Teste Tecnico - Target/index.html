@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Teste Técnico - Target</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <h3>CABEÇALHO</h3>
+        <h1>Nome: <span>Rômulo Ferraz Chaves</span></h1>
+        <h1>Vaga: <span>Desenvolvedor Target</span></h1>
+
+    </div>
+
+    <h6>Observação:
+        <span>Esse teste foi feito com o uso de HTML, CSS e JavaScript.</span>
+    </h6>
+
+    <h1>Questão 1:</h1>
+
+    <p>Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores
+        anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que desejar onde,
+        informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando se o número informado
+        pertence ou não a sequência. <br><br>
+        IMPORTANTE: Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser
+        previamente definido no código;</p>
+
+    <h2>Solução da questão:</h2>
+
+    <div id="solution">
+        <label for="number-input">Digite um número e veja se ele faz parte da sequência de Fibonacci:</label>
+        <input type="number" id="number-input">
+        <button id="check-button-fibonacci">Confirmar</button>
+        <span id="result-fibonacci"></span>
+    </div>
+
+
+    <h1>Questão 2:</h1>
+    <p>Escreva um programa que verifique, em uma string, a existência da letra ‘a’, seja maiúscula ou minúscula, além de
+        informar a quantidade de vezes em que ela ocorre. <br><br>
+        IMPORTANTE: Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser
+        previamente definida no código;</p>
+
+    <h2>Solução da questão:</h2>
+    <div id="solution">
+        <label for="text-input">Digite uma palavra, e veja se a letra 'a' existe, se ela é maiúscula ou minúscula, e
+            quantas vezes ela aparece:</label>
+        <input type="text" id="text-input">
+        <button id="check-button-aLetter">Confirmar</button>
+        <span id="result-aLetter"></span>
+    </div>
+
+
+
+    <h1>Questão 3:</h1>
+    <p>Observe o trecho de código abaixo: <br> <br> 
+        <b>int INDICE = 12, SOMA = 0, K = 1; enquanto K < INDICE faça { K=K + 1; SOMA=SOMA + K; } imprimir(SOMA);</b> 
+        <br><br>
+        Ao final do processamento, qual será o valor da variável SOMA?</p>
+
+    <h2>Solução da questão</h2>
+    <div id="solution">
+        <button id="check-button-soma">Calcular</button>
+        <span id="result-soma"></span>
+    </div>
+
+
+
+    <h1>Questão 4:</h1>
+    <ul> Descubra a lógica e complete o próximo elemento:
+        <li>a- 1, 3, 5, 7, ___</li>
+        <li>b- 2, 4, 8, 16, 32, 64, ____</li>
+        <li>c- 0, 1, 4, 9, 16, 25, 36, ____</li>
+        <li>d- 4, 16, 36, 64, ____</li>
+        <li>e- 1, 1, 2, 3, 5, 8, ____</li>
+        <li>f- 2,10, 12, 16, 17, 18, 19, ____</li>
+    </ul>
+
+    <!--SOLUÇÃO DA QUESTÃO 4 -->
+    <h2>Solução da questão:</h2>
+    <div id="solution">
+        <ul id="resultShare">
+            <li>A = <b>9</b></li>
+            <li>B = <b>128</b></li>
+            <li>C = <b>49</b></li>
+            <li>D = <b>100</b></li>
+            <li>E = <b>13</b></li>
+            <li>F = <b>20</b></li>
+        </ul>
+    </div>
+
+    <h1>Questão 5:</h1>
+    <p> Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em salas diferentes. Você não pode
+        ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu
+        objetivo é descobrir qual interruptor controla qual lâmpada. Como você faria para descobrir, usando apenas duas
+        idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?</p>
+
+    <h2>Soluçao da questão:</h2>
+
+    <div id="solution">
+        <p class="response">
+            Para resolver esse problema, eu começaria ligando o interruptor A e o deixaria ligado por alguns minutos, o
+            suficiente para a lâmpada esquentar. Eu saberia que, dessa forma, a lâmpada teria tempo para aquecer. Após
+            isso, desligaria o interruptor A e ligaria o interruptor B, deixando-o ligado enquanto o interruptor C
+            permaneceria desligado.
+            <br><br>
+            Depois, eu iria até a sala das lâmpadas. Ao entrar, perceberia que haveriam três possibilidades: uma lâmpada
+            acesa, uma lâmpada quente, mas apagada, e uma lâmpada apagada e fria. A lâmpada acesa seria a controlada
+            pelo interruptor B, já que seria o único que ficaria ligado o tempo todo. A lâmpada quente, mas apagada
+            seria controlada pelo interruptor A, pois eu a teria deixado ligada por um tempo e, ao desligá-la, ela ainda
+            estaria aquecida. Por último, a lâmpada apagada e fria seria controlada pelo interruptor C, que nunca teria
+            sido ligado, então estaria fria e apagada.
+            <br><br>
+            Com isso, eu seria capaz de descobrir qual interruptor controla cada uma das lâmpadas, utilizando apenas duas idas até a sala delas.
+        </p>
+    </div>
+
+</body>
+
+<script type="module" src="./main.js"></script>
+
+</html>
